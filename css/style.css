@@ -2,4 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* HEADER  */
+
+header {
+  height: 70px;
+  background-color: #add8e7;
+}
+
+.header-top {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-top .logo {
+  width: 20%;
+  background-color: #daa51e;
+  border: 2px black dashed;
+  padding: 5px;
+}
+.header-top .link {
+  padding: 5px;
+  width: 60%;
+  background-color: #daa51e;
+  border: 2px black dashed;
+
+  text-align: center;
+}
+.header-top .login {
+  padding: 5px;
+  width: 20%;
+  background-color: #daa51e;
+  border: 2px black dashed;
+  text-align: end;
 }
