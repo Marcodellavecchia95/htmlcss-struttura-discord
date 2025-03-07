@@ -2,15 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* UTILS  */
 .container {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
 }
 
 /* HEADER  */
@@ -18,33 +22,45 @@
 header {
   height: 70px;
   background-color: #add8e7;
+  padding: 20px 0;
 }
 
 .header-top {
-  height: 70px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  background-color: #daa51e;
+  margin-bottom: 20px;
 }
 
-.header-top .logo {
-  width: 20%;
-  background-color: #daa51e;
-  border: 2px black dashed;
+.box {
+  border: 1.5px black dashed;
   padding: 5px;
 }
-.header-top .link {
-  padding: 5px;
-  width: 60%;
-  background-color: #daa51e;
-  border: 2px black dashed;
 
+.link {
+  width: 70%;
   text-align: center;
 }
-.header-top .login {
-  padding: 5px;
-  width: 20%;
-  background-color: #daa51e;
-  border: 2px black dashed;
-  text-align: end;
+.logo {
+  width: 15%;
+}
+.login {
+  width: 15%;
+}
+
+.header-bottom {
+  min-height: 200px;
+  background-color: #00018b;
+  padding: 20px;
+}
+
+.container2 {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pink-box {
+  height: 200px;
+  background-color: #ef82ed;
 }
