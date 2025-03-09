@@ -20,9 +20,8 @@ body {
 /* HEADER  */
 
 header {
-  height: 70px;
   background-color: #add8e7;
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 
 .header-top {
@@ -46,12 +45,13 @@ header {
 }
 .login {
   width: 15%;
+  text-align: end;
 }
 
 .header-bottom {
-  min-height: 200px;
   background-color: #00018b;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .container2 {
@@ -63,4 +63,43 @@ header {
 .pink-box {
   height: 200px;
   background-color: #ef82ed;
+}
+
+.row {
+  height: 200px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.main {
+  background-color: #1e90ff;
+
+  width: 300px;
+  flex-grow: 1;
+}
+
+.aside {
+  background-color: #ffc0ca;
+  width: 300px;
+}
+.row2 {
+  background-color: #d3d3d3;
+  height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 30px;
+}
+
+.row3 {
+  height: 200px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.row4 {
+  height: 400px;
+
+  margin-bottom: 30px;
+}
+.green-box {
+  height: 400px;
+  background-color: #218b21;
 }
